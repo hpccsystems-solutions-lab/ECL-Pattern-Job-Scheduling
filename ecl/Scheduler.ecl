@@ -2,7 +2,7 @@ IMPORT Std;
 IMPORT ecl.WorkunitExec;
 
 /** Scheduler
-  * Run this scheduler job on hThor after all the jobs are compiled on THOR
+  * Run this scheduler job on hThor after job A, B and C are compiled.
   */
 
 RunByNameAndWait(STRING wuJobName) := FUNCTION
